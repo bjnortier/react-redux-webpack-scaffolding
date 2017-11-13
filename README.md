@@ -2,12 +2,12 @@
 
 ## Introduction
 
-This is my web app scaffolding for a Node.js web application;
+This is my web app scaffolding for a Node.js web application:
 
   1. Express for HTTP serving
   1. React for DOM rendering
   1. Redux for UI state management
-  1. Standardjs for linting
+  1. StandardJS for linting
   1. Webpack for bundling
   1. Glamor for inline CSS
   1. Mocha+Expect for unit testing
@@ -18,7 +18,7 @@ Please log Github issues for questions.
 
 ## Requirements
 
-- Node.js. TODO: define the supported node engines in packege.json
+- Node.js. TODO: define the supported node engines in package.json
 - Git
 
 ## Clone, test, run
@@ -35,7 +35,7 @@ Link & run the unit tests
 
 Run Webpack
 
-    $ npm run Webpack
+    $ npm run webpack
 
 ![screen shot 2017-11-13 at 11 58 22](https://user-images.githubusercontent.com/57994/32719756-1c315ef6-c86a-11e7-89a9-0e69a12cbe72.png)
 
