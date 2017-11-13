@@ -1,0 +1,19 @@
+{
+  "name": "react-redux-webpack-scaffolding",
+  "version": "1.0.0",
+  "description": "Ben Nortier <ben@bjnortier.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjnortier/react-redux-webpack-scaffolding.git"
+  },
+  "author": "Ben Nortier <ben@bjnortier.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjnortier/react-redux-webpack-scaffolding/issues"
+  },
+  "homepage": "https://github.com/bjnortier/react-redux-webpack-scaffolding#readme"
+}
