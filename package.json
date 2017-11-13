@@ -4,9 +4,12 @@
   "description": "Ben Nortier <ben@bjnortier.com>",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node -- ./bin/main.js",
+    "lint": "standard",
+    "unit": "mocha --require babel-core/register --recursive test/unit/**",
+    "unit:watch": "npm run unit -- --watch",
+    "test": "npm run lint && npm run unit",
     "webpack:watch": "webpack -d --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node -- ./bin/main.js"
   },
   "repository": {
     "type": "git",
@@ -38,5 +41,21 @@
     "redux-thunk": "^2.2.0",
     "standard": "^10.0.3",
     "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "before",
+      "beforeEach",
+      "after"
+    ],
+    "ignore": [
+      "public/bundle"
+    ]
   }
 }
