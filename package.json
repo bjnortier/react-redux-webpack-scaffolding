@@ -4,6 +4,8 @@
   "description": "Ben Nortier <ben@bjnortier.com>",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node -- ./bin/main.js",
+    "webpack:watch": "webpack -d --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,26 @@
   "bugs": {
     "url": "https://github.com/bjnortier/react-redux-webpack-scaffolding/issues"
   },
-  "homepage": "https://github.com/bjnortier/react-redux-webpack-scaffolding#readme"
+  "homepage": "https://github.com/bjnortier/react-redux-webpack-scaffolding#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "glamor": "^2.20.40",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "standard": "^10.0.3",
+    "webpack": "^3.8.1"
+  }
 }
