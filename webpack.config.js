@@ -10,13 +10,9 @@ if (process.env.NODE_ENV === 'production') {
   }))
 }
 
-plugins.push(
-  new webpack.DefinePlugin({
-    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
-  }))
 module.exports = {
   entry: {
-    app: './src/app/app'
+    app: './src/app'
   },
   module: {
     loaders: [
