@@ -1,6 +1,6 @@
 {
   "name": "react-redux-webpack-scaffolding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ben Nortier <ben@bjnortier.com>",
   "main": "index.js",
   "scripts": {
