@@ -2,7 +2,19 @@
 
 ## Introduction
 
-This is my web app scaffolding for a React/Redux/Webpack/Express Node.js application.
+This is my web app scaffolding for a Node.js web application;
+
+  1. Express for HTTP serving
+  1. React for DOM rendering
+  1. Redux for UI state management
+  1. Standardjs for linting
+  1. Webpack for bundling
+  1. Glamor for inline CSS
+  1. Mocha+Expect for unit testing
+
+YMMV
+
+Please log Github issues for questions.
 
 ## Requirements
 
@@ -49,3 +61,11 @@ When you click '+' or '-', the redux state changes will be show in the javascrip
 ## Directory layout:
 
 TODO
+
+## Developing
+
+While developing, I have 3 tabs open:
+
+ 1. The process running the development web server. It used ```nodemon```, so file changes will restart the server.
+ 1. A process watching for changes and re-executing Webpack: ```$ npm run webpack:watch```
+ 1. A process watching for changes and re-executing the unit tests ```$ npm run unit:watch```
