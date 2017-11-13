@@ -1,4 +1,4 @@
-import counterReducer from '../../src/app/reducers/counter'
+import counterReducer from '../../src/reducers/counter'
 import expect from 'expect'
 
 describe('Counter reducer', () => {

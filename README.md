@@ -2,15 +2,16 @@
 
 ## Introduction
 
-This is my web app scaffolding for a Node.js web application:
+This is my web app scaffolding for a *static* Node.js web application:
 
-  1. Express for HTTP serving
   1. React for DOM rendering
   1. Redux for UI state management
   1. StandardJS for linting
   1. Webpack for bundling
   1. Glamor for inline CSS
   1. Mocha+Expect for unit testing
+
+You can easily convert this to an Express/<insert HTTP framework> app.
 
 YMMV
 
@@ -40,15 +41,11 @@ Run Webpack
 ![screen shot 2017-11-13 at 11 58 22](https://user-images.githubusercontent.com/57994/32719756-1c315ef6-c86a-11e7-89a9-0e69a12cbe72.png)
 
 
-Start the HTTP server
+Start the static HTTP server. I use httpserver (```$ npm i -g httpserver````)
 
-    $ npm run start
-
-![screen shot 2017-11-13 at 11 58 46](https://user-images.githubusercontent.com/57994/32719763-1fa44b84-c86a-11e7-8167-17df4668b35c.png)
-
-Open your bowser
-
-    $ open http://localhost:8000
+    $ cd public/
+    $ httpserver
+    <new tab> $ open http://localhost:8080
 
 ![screen shot 2017-11-13 at 12 00 56](https://user-images.githubusercontent.com/57994/32719834-57a169d6-c86a-11e7-979e-72a0cfe4dd39.png)
 
