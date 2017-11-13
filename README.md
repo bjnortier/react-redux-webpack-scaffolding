@@ -41,9 +41,10 @@ Run Webpack
 ![screen shot 2017-11-13 at 11 58 22](https://user-images.githubusercontent.com/57994/32719756-1c315ef6-c86a-11e7-89a9-0e69a12cbe72.png)
 
 
-Start the static HTTP server. I use httpserver (```$ npm i -g httpserver````)
+Start the static HTTP server. I use httpserver.
 
     $ cd public/
+    <optional> $ npm i -g httpserver
     $ httpserver
     <new tab> $ open http://localhost:8080
 
